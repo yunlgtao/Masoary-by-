@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C7907D1C7DAD5A00A0DE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7907C1C7DAD5A00A0DE17 /* main.m */; };
+		18C790801C7DAD5A00A0DE17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7907F1C7DAD5A00A0DE17 /* AppDelegate.m */; };
+		18C790831C7DAD5A00A0DE17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C790821C7DAD5A00A0DE17 /* ViewController.m */; };
+		18C790881C7DAD5A00A0DE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C790871C7DAD5A00A0DE17 /* Assets.xcassets */; };
+		18C7908B1C7DAD5A00A0DE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C790891C7DAD5A00A0DE17 /* LaunchScreen.storyboard */; };
+		18C790961C7DAD5A00A0DE17 /* Masoary__by___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C790951C7DAD5A00A0DE17 /* Masoary__by___Tests.m */; };
+		18C790A11C7DAD5A00A0DE17 /* Masoary__by___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C790A01C7DAD5A00A0DE17 /* Masoary__by___UITests.m */; };
+		18CEE9D31CA92E60005470D0 /* Example1Contraller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE9D21CA92E60005470D0 /* Example1Contraller.m */; };
+		18CEE9D61CAA1ABD005470D0 /* Example2Contraller.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CEE9D51CAA1ABD005470D0 /* Example2Contraller.m */; };
+		B7755AF7673E9D041B2C3748 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A34BC69177CF5E8D74C9245F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C790921C7DAD5A00A0DE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C790701C7DAD5A00A0DE17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C790771C7DAD5A00A0DE17;
+			remoteInfo = "Masoary学习by吴彦祖";
+		};
+		18C7909D1C7DAD5A00A0DE17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C790701C7DAD5A00A0DE17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C790771C7DAD5A00A0DE17;
+			remoteInfo = "Masoary学习by吴彦祖";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18C790781C7DAD5A00A0DE17 /* Masoary学习by吴彦祖.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Masoary学习by吴彦祖.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C7907C1C7DAD5A00A0DE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C7907E1C7DAD5A00A0DE17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C7907F1C7DAD5A00A0DE17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C790811C7DAD5A00A0DE17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C790821C7DAD5A00A0DE17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C790871C7DAD5A00A0DE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C7908A1C7DAD5A00A0DE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C7908C1C7DAD5A00A0DE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C790911C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masoary学习by吴彦祖Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C790951C7DAD5A00A0DE17 /* Masoary__by___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Masoary__by___Tests.m"; sourceTree = "<group>"; };
+		18C790971C7DAD5A00A0DE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C7909C1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masoary学习by吴彦祖UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C790A01C7DAD5A00A0DE17 /* Masoary__by___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Masoary__by___UITests.m"; sourceTree = "<group>"; };
+		18C790A21C7DAD5A00A0DE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CEE9D11CA92E60005470D0 /* Example1Contraller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1Contraller.h; sourceTree = "<group>"; };
+		18CEE9D21CA92E60005470D0 /* Example1Contraller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example1Contraller.m; sourceTree = "<group>"; };
+		18CEE9D41CAA1ABD005470D0 /* Example2Contraller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example2Contraller.h; sourceTree = "<group>"; };
+		18CEE9D51CAA1ABD005470D0 /* Example2Contraller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Example2Contraller.m; sourceTree = "<group>"; };
+		A34BC69177CF5E8D74C9245F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8DA2E05812BCAFDE8E8DD83 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AFED3E8DEE952602D21982F4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C790751C7DAD5A00A0DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7755AF7673E9D041B2C3748 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7908E1C7DAD5A00A0DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C790991C7DAD5A00A0DE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ADC9C9B85DED96AD81A06B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A34BC69177CF5E8D74C9245F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18C7906F1C7DAD5A00A0DE17 = {
+			isa = PBXGroup;
+			children = (
+				18C7907A1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */,
+				18C790941C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests */,
+				18C7909F1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests */,
+				18C790791C7DAD5A00A0DE17 /* Products */,
+				5CFFA193D573CF273D8860FA /* Pods */,
+				03ADC9C9B85DED96AD81A06B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C790791C7DAD5A00A0DE17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C790781C7DAD5A00A0DE17 /* Masoary学习by吴彦祖.app */,
+				18C790911C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests.xctest */,
+				18C7909C1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C7907A1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE9D01CA92E04005470D0 /* Example */,
+				18C7907E1C7DAD5A00A0DE17 /* AppDelegate.h */,
+				18C7907F1C7DAD5A00A0DE17 /* AppDelegate.m */,
+				18C790811C7DAD5A00A0DE17 /* ViewController.h */,
+				18C790821C7DAD5A00A0DE17 /* ViewController.m */,
+				18C790871C7DAD5A00A0DE17 /* Assets.xcassets */,
+				18C790891C7DAD5A00A0DE17 /* LaunchScreen.storyboard */,
+				18C7908C1C7DAD5A00A0DE17 /* Info.plist */,
+				18C7907B1C7DAD5A00A0DE17 /* Supporting Files */,
+			);
+			path = "Masoary学习by吴彦祖";
+			sourceTree = "<group>";
+		};
+		18C7907B1C7DAD5A00A0DE17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18C7907C1C7DAD5A00A0DE17 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18C790941C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18C790951C7DAD5A00A0DE17 /* Masoary__by___Tests.m */,
+				18C790971C7DAD5A00A0DE17 /* Info.plist */,
+			);
+			path = "Masoary学习by吴彦祖Tests";
+			sourceTree = "<group>";
+		};
+		18C7909F1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18C790A01C7DAD5A00A0DE17 /* Masoary__by___UITests.m */,
+				18C790A21C7DAD5A00A0DE17 /* Info.plist */,
+			);
+			path = "Masoary学习by吴彦祖UITests";
+			sourceTree = "<group>";
+		};
+		18CEE9D01CA92E04005470D0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				18CEE9D11CA92E60005470D0 /* Example1Contraller.h */,
+				18CEE9D21CA92E60005470D0 /* Example1Contraller.m */,
+				18CEE9D41CAA1ABD005470D0 /* Example2Contraller.h */,
+				18CEE9D51CAA1ABD005470D0 /* Example2Contraller.m */,
+			);
+			name = Example;
+			sourceTree = "<group>";
+		};
+		5CFFA193D573CF273D8860FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFED3E8DEE952602D21982F4 /* Pods.debug.xcconfig */,
+				A8DA2E05812BCAFDE8E8DD83 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C790771C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C790A51C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖" */;
+			buildPhases = (
+				FDF2DFFA88A8A92C362DFF0D /* Check Pods Manifest.lock */,
+				18C790741C7DAD5A00A0DE17 /* Sources */,
+				18C790751C7DAD5A00A0DE17 /* Frameworks */,
+				18C790761C7DAD5A00A0DE17 /* Resources */,
+				31349DF1DD78330B5990AFF0 /* Embed Pods Frameworks */,
+				8EE393527233A9D9A8A7B4EE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masoary学习by吴彦祖";
+			productName = "Masoary学习by吴彦祖";
+			productReference = 18C790781C7DAD5A00A0DE17 /* Masoary学习by吴彦祖.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C790901C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C790A81C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖Tests" */;
+			buildPhases = (
+				18C7908D1C7DAD5A00A0DE17 /* Sources */,
+				18C7908E1C7DAD5A00A0DE17 /* Frameworks */,
+				18C7908F1C7DAD5A00A0DE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C790931C7DAD5A00A0DE17 /* PBXTargetDependency */,
+			);
+			name = "Masoary学习by吴彦祖Tests";
+			productName = "Masoary学习by吴彦祖Tests";
+			productReference = 18C790911C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18C7909B1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C790AB1C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖UITests" */;
+			buildPhases = (
+				18C790981C7DAD5A00A0DE17 /* Sources */,
+				18C790991C7DAD5A00A0DE17 /* Frameworks */,
+				18C7909A1C7DAD5A00A0DE17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C7909E1C7DAD5A00A0DE17 /* PBXTargetDependency */,
+			);
+			name = "Masoary学习by吴彦祖UITests";
+			productName = "Masoary学习by吴彦祖UITests";
+			productReference = 18C7909C1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C790701C7DAD5A00A0DE17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陶云龙Mac";
+				TargetAttributes = {
+					18C790771C7DAD5A00A0DE17 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					18C790901C7DAD5A00A0DE17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18C790771C7DAD5A00A0DE17;
+					};
+					18C7909B1C7DAD5A00A0DE17 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 18C790771C7DAD5A00A0DE17;
+					};
+				};
+			};
+			buildConfigurationList = 18C790731C7DAD5A00A0DE17 /* Build configuration list for PBXProject "Masoary学习by吴彦祖" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C7906F1C7DAD5A00A0DE17;
+			productRefGroup = 18C790791C7DAD5A00A0DE17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C790771C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */,
+				18C790901C7DAD5A00A0DE17 /* Masoary学习by吴彦祖Tests */,
+				18C7909B1C7DAD5A00A0DE17 /* Masoary学习by吴彦祖UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C790761C7DAD5A00A0DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C7908B1C7DAD5A00A0DE17 /* LaunchScreen.storyboard in Resources */,
+				18C790881C7DAD5A00A0DE17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7908F1C7DAD5A00A0DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7909A1C7DAD5A00A0DE17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31349DF1DD78330B5990AFF0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE393527233A9D9A8A7B4EE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF2DFFA88A8A92C362DFF0D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C790741C7DAD5A00A0DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C790831C7DAD5A00A0DE17 /* ViewController.m in Sources */,
+				18C790801C7DAD5A00A0DE17 /* AppDelegate.m in Sources */,
+				18CEE9D31CA92E60005470D0 /* Example1Contraller.m in Sources */,
+				18C7907D1C7DAD5A00A0DE17 /* main.m in Sources */,
+				18CEE9D61CAA1ABD005470D0 /* Example2Contraller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C7908D1C7DAD5A00A0DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C790961C7DAD5A00A0DE17 /* Masoary__by___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C790981C7DAD5A00A0DE17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C790A11C7DAD5A00A0DE17 /* Masoary__by___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C790931C7DAD5A00A0DE17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C790771C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */;
+			targetProxy = 18C790921C7DAD5A00A0DE17 /* PBXContainerItemProxy */;
+		};
+		18C7909E1C7DAD5A00A0DE17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C790771C7DAD5A00A0DE17 /* Masoary学习by吴彦祖 */;
+			targetProxy = 18C7909D1C7DAD5A00A0DE17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C790891C7DAD5A00A0DE17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C7908A1C7DAD5A00A0DE17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C790A31C7DAD5A00A0DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C790A41C7DAD5A00A0DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C790A61C7DAD5A00A0DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFED3E8DEE952602D21982F4 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masoary学习by吴彦祖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18C790A71C7DAD5A00A0DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8DA2E05812BCAFDE8E8DD83 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Masoary学习by吴彦祖/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18C790A91C7DAD5A00A0DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Masoary学习by吴彦祖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masoary学习by吴彦祖.app/Masoary学习by吴彦祖";
+			};
+			name = Debug;
+		};
+		18C790AA1C7DAD5A00A0DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Masoary学习by吴彦祖Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Masoary学习by吴彦祖.app/Masoary学习by吴彦祖";
+			};
+			name = Release;
+		};
+		18C790AC1C7DAD5A00A0DE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Masoary学习by吴彦祖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Masoary学习by吴彦祖";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18C790AD1C7DAD5A00A0DE17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Masoary学习by吴彦祖UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Masoary--by---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Masoary学习by吴彦祖";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C790731C7DAD5A00A0DE17 /* Build configuration list for PBXProject "Masoary学习by吴彦祖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C790A31C7DAD5A00A0DE17 /* Debug */,
+				18C790A41C7DAD5A00A0DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C790A51C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C790A61C7DAD5A00A0DE17 /* Debug */,
+				18C790A71C7DAD5A00A0DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C790A81C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C790A91C7DAD5A00A0DE17 /* Debug */,
+				18C790AA1C7DAD5A00A0DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C790AB1C7DAD5A00A0DE17 /* Build configuration list for PBXNativeTarget "Masoary学习by吴彦祖UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C790AC1C7DAD5A00A0DE17 /* Debug */,
+				18C790AD1C7DAD5A00A0DE17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C790701C7DAD5A00A0DE17 /* Project object */;
+}
